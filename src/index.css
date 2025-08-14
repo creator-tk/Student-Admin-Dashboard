@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@tailwind utilities;
+
+.bg-primary-color{
+  background: linear-gradient(to right, rgb(79, 79, 209), blue)
+}
+.primary-color{
+  background: linear-gradient(to right, rgb(79, 79, 209), blue);
+  background-clip: text;
+  -webkit-text-fill-color: transparent
+}
