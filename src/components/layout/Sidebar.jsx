@@ -14,7 +14,7 @@ const Sidebar = () => {
   ];
 
   return (
-    <div className="w-64 border-gray-500 bg-sidebar-bg flex flex-col h-full shadow-lg">
+    <div className="w-64 border-gray-500 bg-sidebar-bg flex-col h-full shadow-lg hidden sm:flex">
       <div className="flex items-center justify-center h-20 border-b">
         <div className='border p-2 rounded-2xl w-[50px] h-[50px] mr-3 flex items-center justify-center text-white bg-primary-color'>
           <FaWandSparkles size={25} className="text-primary" />

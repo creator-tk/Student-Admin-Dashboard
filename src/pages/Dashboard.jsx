@@ -23,7 +23,7 @@ const LeaderboardTable = () => (
           <FiMoreVertical />
       </button>
     </div>
-    <div className="overflow-x-auto flex flex-wrap gap-4">
+    <div className="overflow-x-auto flex flex-wrap gap-4 justify-center sm:justify-start">
       {allStudentsData.slice(0, 5).map((student) => (
         <div key={student.rank} className="bg-white shadow-md border border-gray-300! w-[180px] rounded-xl p-2 py-4! flex flex-col gap-2">
             <div className="w-full flex flex-col justify-center items-center">
